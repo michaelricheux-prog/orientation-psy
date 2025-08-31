@@ -23,10 +23,18 @@ header nav a {
 }
 
 .hero {
-  background: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?fit=crop&w=1400&q=80') no-repeat center center/cover;
-  color: white;
+  background-image: url('images/accueil.jpg'); /* Chemin vers ton image */
+  background-size: cover;      /* L’image couvre toute la section */
+  background-position: center; /* Centrage de l’image */
+  background-repeat: no-repeat;
+  height: 100vh;               /* Hauteur de la section : plein écran */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;                /* Texte en blanc pour contraster */
   text-align: center;
-  padding: 6rem 2rem;
+  padding: 0 20px;
 }
 
 .hero h1 {
