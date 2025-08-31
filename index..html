@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orientation & Psychologie</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Open Sans", sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1rem;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?fit=crop&w=1400&q=80') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 6rem 2rem;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin: 1rem 0;
+    }
+
+    .btn {
+      background: #ff7f50;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #e5673c;
+    }
+
+    .services {
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .services h2 {
+      margin-bottom: 2rem;
+    }
+
+    .service-box {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Orientation & Psychologie</h2>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Un accompagnement bienveillant pour votre avenir</h1>
+    <p>Psychologie, orientation scolaire et professionnelle, coaching oral</p>
+    <a href="#contact" class="btn">Prendre rendez-vous</a>
+  </section>
+
+  <section class="services" id="services">
+    <h2>Nos services</h2>
+    <div class="service-box">
+      <div class="card">🎓 Orientation scolaire & professionnelle</div>
+      <div class="card">🧘 Soutien psychologique individuel</div>
+      <div class="card">💼 Coaching oral & préparation aux examens</div>
+      <div class="card">🌱 Ateliers de développement personnel</div>
+    </div>
+  </section>
+
+  <section id="about" class="services">
+    <h2>À propos</h2>
+    <p>Je suis psychologue spécialisé(e) en orientation, avec une approche humaine et bienveillante. 
+    Mon objectif est d’aider chacun à trouver sa voie et à s’épanouir dans son parcours.</p>
+  </section>
+
+  <section id="contact" class="services">
+    <h2>Contact</h2>
+    <p>📧 Email : contact@orientation-psy.fr</p>
+    <p>📞 Téléphone : 06 12 34 56 78</p>
+    <p>📍 Adresse : 10 rue de la Sérénité, Paris</p>
+    <a href="mailto:contact@orientation-psy.fr" class="btn">Envoyer un message</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Orientation & Psychologie - Tous droits réservés</p>
+  </footer>
+
+</body>
+</html>
